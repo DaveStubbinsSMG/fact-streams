@@ -23,6 +23,7 @@
   "homepage": "https://github.com/drosidis/fact-streams",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
+    "prepare": "npm run build",
     "test": "ts-mocha test/**/*.test.ts",
     "test:watch": "ts-mocha --watch --watch-files 'src,test' test/**/*.test.ts",
     "lint": "tsc",
