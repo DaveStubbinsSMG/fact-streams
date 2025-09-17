@@ -1,6 +1,6 @@
 export { ObjectId } from 'mongodb';
 
-export { connect } from './connect';
+export { connect, initializeFromClient } from './connect';
 export { createFact } from './createFact';
 export { NEW } from './factStore';
 export { default as View } from './View';
